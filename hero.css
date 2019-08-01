@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(51, 51, 51, 0.63), rgba(51, 51, 51, 0.63)), url("hero.png");
+    height: 37%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    padding: 200px 150px;
+    color: #FFFFFF;
+}
+
+.hero-image h1 {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 29px;
+
+}
+
+  .hero-image h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
